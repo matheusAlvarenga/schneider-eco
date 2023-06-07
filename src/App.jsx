@@ -1,7 +1,5 @@
 export function App() {
   return (
-    <>
-      <h1>Schneider ECO</h1>
-    </>
-  )
+    <h1>Schneider ECO</h1>
+  );
 }

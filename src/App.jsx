@@ -1,5 +1,11 @@
+import { ResetCss } from './styles/global';
+import { AppRouter } from './routes';
+
 export function App() {
   return (
-    <h1>Schneider ECO</h1>
+    <>
+      <ResetCss />
+      <AppRouter />
+    </>
   );
 }

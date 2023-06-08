@@ -19,10 +19,12 @@ export const Name = styled.p`
   font-weight: 600;
   font-size: 2rem;
   color: #333333;
+  text-align: center;
 `;
 
 export const Subtitle = styled.p`
   font-weight: 500;
   font-size: 16px;
   color: #009639;
+  text-align: center;
 `;

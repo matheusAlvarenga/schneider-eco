@@ -21,7 +21,7 @@ export const ResetCss = createGlobalStyle`
 
   @media (max-width: 1460px) {
     html, body {
-      font-size: 53.5%;
+      font-size: 50%;
     }
   }
 

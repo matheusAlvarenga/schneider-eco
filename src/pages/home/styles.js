@@ -9,6 +9,10 @@ export const Wrapper = styled.div`
 export const Section = styled.div`
   width: 100%;
   padding: 2.4rem 18rem;
+
+  @media (max-width: 1460px) {
+    padding: 1.2rem 9rem;
+  }
 `;
 
 export const Row = styled.div`
@@ -49,8 +53,8 @@ export const Image = styled.img`
 `;
 
 export const Image2 = styled.img`
-  width: 80rem;
-  height: 50rem;
+  width: 72rem;
+  height: 42rem;
   object-fit: cover;
   border-radius: 10px;
 `;

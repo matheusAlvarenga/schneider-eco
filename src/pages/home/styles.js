@@ -6,16 +6,22 @@ export const Wrapper = styled.div`
   align-items: center;
 `;
 
+export const Section = styled.div`
+  width: 100%;
+  padding: 2.4rem 10rem;
+`;
+
 export const Row = styled.div`
   width: 100%;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.4rem 10rem;
 `;
 
 export const Column = styled.div`
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -25,6 +31,12 @@ export const Column = styled.div`
 export const Title = styled.h1`
   font-weight: 700;
   font-size: 7.2rem;
+  color: #333333;
+`;
+
+export const SessionTitle = styled.h2`
+  font-weight: 600;
+  font-size: 3.2rem;
   color: #333333;
 `;
 

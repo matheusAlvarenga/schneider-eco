@@ -52,7 +52,9 @@ export const Column = styled.div`
 export const Hero = styled.div`
   width: 100%;
   height: 50rem;
-  background: url(${(props) => props.background});
+  background-image: url(${(props) => props.background});
+  background-size: cover;
+  background-position: center;
 
   display: flex;
   justify-content: flex-start;

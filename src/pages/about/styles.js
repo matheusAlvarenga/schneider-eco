@@ -67,11 +67,19 @@ export const HeroTitle = styled.h1`
   width: 55rem;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.p`
   width: 100%;
   font-weight: 700;
   font-size: 6rem;
   color: #333333;
+  text-align: center;
+`;
+
+export const Title2 = styled.p`
+  width: 100%;
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #404040;
   text-align: center;
 `;
 
@@ -107,4 +115,13 @@ export const Text = styled.p`
   color: #333333;
 
   margin-top: 1.6rem;
+`;
+
+export const Text2 = styled.p`
+  max-width: 90rem;
+
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #333333;
+  text-align: center;
 `;

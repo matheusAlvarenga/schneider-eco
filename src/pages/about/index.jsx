@@ -23,55 +23,75 @@ export function AboutPage() {
         </S.HeroTitle>
       </S.Hero>
       <Divider height="8rem" />
-      <S.Column>
-        <S.Title>Enrol for a couse now</S.Title>
-        <S.Section>
-          <S.Row>
-            <S.TextSection>
-              <S.SmallTitle>Nossos desafios</S.SmallTitle>
-              <S.Subtitle>Enquanto voce ajuda a melhorar o mundo</S.Subtitle>
-              <S.Text>
-                Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum,
-                dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur
-                adipielit. Facilisi fermentum, dignissim pharetra. Aliquam
-              </S.Text>
-            </S.TextSection>
-            <S.Image src={img2} />
-          </S.Row>
-        </S.Section>
-      </S.Column>
+      <S.Section>
+        <S.Row>
+          <S.TextSection>
+            <S.SmallTitle>Ganhe recompensas</S.SmallTitle>
+            <S.Subtitle>e ajude o planeta: junte-se agora!</S.Subtitle>
+            <S.Text>
+              Faça parte de uma comunidade que promove a sustentabilidade e a
+              ecologia no ambiente de trabalho. Assista a vídeos educativos,
+              participe de desafios e ganhe recompensas por suas boas ações ecológicas.
+              Junte-se a nós hoje mesmo e faça a diferença para um futuro mais sustentável!
+            </S.Text>
+          </S.TextSection>
+          <S.Image src={img2} />
+        </S.Row>
+      </S.Section>
       <Divider height="8rem" />
       <S.Column>
         <S.Title>Tecnologias utilizadas</S.Title>
         <S.Section>
           <S.TechRow>
             <TechCard img={tech1}>React</TechCard>
-            <TechCard img={tech2}>React</TechCard>
-            <TechCard img={tech3}>React</TechCard>
-            <TechCard img={tech4}>React</TechCard>
-            <TechCard img={tech5}>React</TechCard>
-            <TechCard img={tech6}>React</TechCard>
+            <TechCard img={tech2}>Styled Components</TechCard>
+            <TechCard img={tech3}>UX Writing e Storytelling</TechCard>
+            <TechCard img={tech4}>UX/UI Design</TechCard>
+            <TechCard img={tech5}>ESG</TechCard>
+            <TechCard img={tech6}>HTML + CSS</TechCard>
           </S.TechRow>
         </S.Section>
       </S.Column>
       <Divider height="8rem" />
       <S.Column>
-        <S.Title>Enrol for a couse now</S.Title>
-        <S.Section>
-          <S.Row>
-            <S.Image src={img2} />
-            <S.TextSection>
-              <S.SmallTitle>Nossos desafios</S.SmallTitle>
-              <S.Subtitle>Enquanto voce ajuda a melhorar o mundo</S.Subtitle>
-              <S.Text>
-                Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum,
-                dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur
-                adipielit. Facilisi fermentum, dignissim pharetra. Aliquam
-              </S.Text>
-            </S.TextSection>
-          </S.Row>
-        </S.Section>
+        <S.Title>O Desafio</S.Title>
+        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+          <S.Text2>
+            Desenvolver um sistema sustentável e ecológico apresenta uma série de desafios
+            únicos. Primeiramente, é necessário garantir a integração perfeita entre as
+            diferentes áreas de conhecimento, como tecnologia, sustentabilidade e
+            engajamento do usuário. A criação de um sistema eficaz requer uma compreensão
+            profunda dos princípios de sustentabilidade e das melhores práticas de
+            engajamento para incentivar a mudança de comportamento.
+            <br />
+            <br />
+            Além disso, outro desafio é a necessidade de equilibrar a complexidade técnica
+            com uma experiência do usuário intuitiva. A interface deve ser amigável e
+            atrativa, garantindo que os funcionários possam facilmente acessar vídeos
+            educativos, participar de desafios e reivindicar suas recompensas. A combinação
+            de conhecimentos em UX Writing, UX Design e React é fundamental para criar uma
+            experiência coesa e agradável, ao mesmo tempo em que oferece funcionalidades
+            robustas e eficientes para o sistema.
+          </S.Text2>
+        </div>
       </S.Column>
+      <Divider height="8rem" />
+      <S.Section>
+        <S.Row>
+          <S.Image src={img2} />
+          <S.TextSection>
+            <S.SmallTitle>Juntos, criando um futuro sustentável e recompensador</S.SmallTitle>
+            <S.Text>
+              Combinando conhecimentos em sustentabilidade, tecnologia e engajamento do usuário,
+              enfrentamos os desafios de criar um sistema que promove a consciência ecológica.
+              Através de desafios, vídeos educativos e recompensas, capacitamos nossos
+              funcionários a adotar práticas sustentáveis. Juntos, estamos construindo um
+              futuro onde a sustentabilidade é recompensada, impulsionando mudanças positivas
+              em prol do nosso planeta.
+            </S.Text>
+          </S.TextSection>
+        </S.Row>
+      </S.Section>
       <Divider height="8rem" />
       <S.Column>
         <S.Title>Nossa equipe</S.Title>

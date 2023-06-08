@@ -10,8 +10,8 @@ export function Header() {
     <S.Wrapper>
       <S.Logo src={logo} />
       <S.Menu>
-        <S.MenuItem>Inicio</S.MenuItem>
-        <S.MenuItem>Sobre o projeto</S.MenuItem>
+        <S.MenuItem to="/">Inicio</S.MenuItem>
+        <S.MenuItem to="/sobre-nos">Sobre o projeto</S.MenuItem>
         <S.MenuItem>Vídeo Pitch</S.MenuItem>
         <Button onClick={() => navigate('/teste')}>Acesse o demo</Button>
       </S.Menu>

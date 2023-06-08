@@ -3,6 +3,7 @@ import { Button } from '../../components/button';
 import { Header } from '../../components/header';
 import img1 from '../../assets/home-1.png';
 import img2 from '../../assets/home-2.png';
+import img3 from '../../assets/home-3.png';
 import course1 from '../../assets/course-1.png';
 import course2 from '../../assets/course-2.png';
 import course3 from '../../assets/course-3.png';
@@ -51,6 +52,21 @@ export function Home() {
       </S.Section>
       <Divider height="8rem" />
       <S.Section>
+        <S.Row>
+          <S.TextSection>
+            <S.SmallTitle>Nossos desafios</S.SmallTitle>
+            <S.Subtitle>Enquanto voce ajuda a melhorar o mundo</S.Subtitle>
+            <S.Text>
+              Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum,
+              dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur
+              adipielit. Facilisi fermentum, dignissim pharetra. Aliquam
+            </S.Text>
+          </S.TextSection>
+          <S.Image2 src={img2} />
+        </S.Row>
+      </S.Section>
+      <Divider height="8rem" />
+      <S.Section>
         <S.Column>
           <S.SessionTitle>Alguns de nossos cursos</S.SessionTitle>
           <S.Row>
@@ -72,7 +88,7 @@ export function Home() {
       <Divider height="8rem" />
       <S.Section>
         <S.Row>
-          <S.Image2 src={img2} />
+          <S.Image2 src={img3} />
           <S.TextSection>
             <S.SmallTitle>Ganhe recompensas</S.SmallTitle>
             <S.Subtitle>Enquanto voce ajuda a melhorar o mundo</S.Subtitle>

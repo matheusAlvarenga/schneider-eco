@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   padding: 0.8rem 1.6rem;
 
   background: #DDFFFF;
-  border-radius: 5px;
+  border-radius: 16px;
 `;
 
 export const Circle = styled.div`
@@ -26,8 +26,8 @@ export const Circle = styled.div`
 export const IconWrapper = styled.div`
   & > svg {
     color: white;
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 16px;
+    width: 16px;
   }
 `;
 

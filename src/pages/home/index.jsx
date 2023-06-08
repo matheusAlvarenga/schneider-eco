@@ -54,12 +54,13 @@ export function Home() {
       <S.Section>
         <S.Row>
           <S.TextSection>
-            <S.SmallTitle>Nossos desafios</S.SmallTitle>
-            <S.Subtitle>Enquanto voce ajuda a melhorar o mundo</S.Subtitle>
+            <S.SmallTitle>Supere desafios</S.SmallTitle>
+            <S.Subtitle>e ganhe recompensas sustentáveis agora!</S.Subtitle>
             <S.Text>
-              Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum,
-              dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur
-              adipielit. Facilisi fermentum, dignissim pharetra. Aliquam
+              Aceite nossos desafios ecológicos diários para impulsionar sua jornada
+              rumo à sustentabilidade. Assista a vídeos inspiradores, participe ativamente
+              e ganhe recompensas incríveis por suas ações ecológicas positivas. Junte-se
+              a nós hoje mesmo e transforme desafios em oportunidades para um mundo mais verde!
             </S.Text>
           </S.TextSection>
           <S.Image2 src={img2} />
@@ -90,12 +91,13 @@ export function Home() {
         <S.Row>
           <S.Image2 src={img3} />
           <S.TextSection>
-            <S.SmallTitle>Ganhe recompensas</S.SmallTitle>
-            <S.Subtitle>Enquanto voce ajuda a melhorar o mundo</S.Subtitle>
+            <S.SmallTitle>Aprenda, cresça</S.SmallTitle>
+            <S.Subtitle>e ganhe recompensas sustentáveis agora!</S.Subtitle>
             <S.Text>
-              Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum,
-              dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur
-              adipielit. Facilisi fermentum, dignissim pharetra. Aliquam
+              Explore nossa variedade de cursos ecológicos e aprofunde seus conhecimentos
+              sobre sustentabilidade. Aprenda de forma interativa, conclua os desafios
+              propostos e seja recompensado por suas conquistas. Junte-se a nossa comunidade
+              e abra caminho para um futuro sustentável, enquanto ganha recompensas exclusivas!
             </S.Text>
           </S.TextSection>
         </S.Row>

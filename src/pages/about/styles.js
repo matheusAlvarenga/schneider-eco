@@ -23,6 +23,15 @@ export const Row = styled.div`
   justify-content: space-between;
 `;
 
+export const TechRow = styled.div`
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+`;
+
 export const SmallRow = styled.div`
   width: 100%;
 

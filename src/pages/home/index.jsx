@@ -10,6 +10,7 @@ import * as S from './styles';
 import { Badge } from '../../components/badge';
 import { Divider } from '../../components/divider';
 import { CourseCard } from '../../components/course-card';
+import { Footer } from '../../components/footer';
 
 export function Home() {
   return (
@@ -41,7 +42,7 @@ export function Home() {
           <Badge icon={<Icon.FaRecycle />}>Um Mundo Melhor</Badge>
         </S.Row>
       </S.Section>
-      <Divider height="14rem" />
+      <Divider height="8rem" />
       <S.Section>
         <S.Column>
           <S.SessionTitle>Alguns de nossos cursos</S.SessionTitle>
@@ -61,6 +62,7 @@ export function Home() {
           </S.Row>
         </S.Column>
       </S.Section>
+      <Footer />
     </S.Wrapper>
   );
 }

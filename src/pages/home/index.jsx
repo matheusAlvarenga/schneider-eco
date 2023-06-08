@@ -2,6 +2,7 @@ import * as Icon from 'react-icons/fa';
 import { Button } from '../../components/button';
 import { Header } from '../../components/header';
 import img1 from '../../assets/home-1.png';
+import img2 from '../../assets/home-2.png';
 import course1 from '../../assets/course-1.png';
 import course2 from '../../assets/course-2.png';
 import course3 from '../../assets/course-3.png';
@@ -62,6 +63,22 @@ export function Home() {
           </S.Row>
         </S.Column>
       </S.Section>
+      <Divider height="8rem" />
+      <S.Section>
+        <S.Row>
+          <S.Image2 src={img2} />
+          <S.TextSection>
+            <S.SmallTitle>Ganhe recompensas</S.SmallTitle>
+            <S.Subtitle>Enquanto voce ajuda a melhorar o mundo</S.Subtitle>
+            <S.Text>
+              Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum,
+              dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur
+              adipielit. Facilisi fermentum, dignissim pharetra. Aliquam
+            </S.Text>
+          </S.TextSection>
+        </S.Row>
+      </S.Section>
+      <Divider height="8rem" />
       <Footer />
     </S.Wrapper>
   );

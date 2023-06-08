@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
 export const Section = styled.div`
   width: 100%;
-  padding: 2.4rem 10rem;
+  padding: 2.4rem 18rem;
 `;
 
 export const Row = styled.div`
@@ -46,4 +46,38 @@ export const Highlight = styled.span`
 
 export const Image = styled.img`
   width: 78rem;
+`;
+
+export const Image2 = styled.img`
+  width: 80rem;
+  height: 50rem;
+  object-fit: cover;
+  border-radius: 10px;
+`;
+
+export const TextSection = styled.div`
+  max-width: 60rem;
+
+  display: flex;
+  flex-direction: column;
+`;
+
+export const SmallTitle = styled.p`
+  font-weight: 800;
+  font-size: 4.8rem;
+  color: #009639;
+`;
+
+export const Subtitle = styled.p`
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #626469;
+`;
+
+export const Text = styled.p`
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #333333;
+
+  margin-top: 1.6rem;
 `;

@@ -31,3 +31,21 @@ export const Column = styled.div`
   align-items: flex-start;
   gap: 4.8rem;
 `;
+
+export const Hero = styled.div`
+  width: 100%;
+  height: 50rem;
+  background: url(${(props) => props.background});
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 5rem;
+`;
+
+export const HeroTitle = styled.h1`
+  font-weight: 700;
+  font-size: 6rem;
+  color: white;
+  width: 55rem;
+`;

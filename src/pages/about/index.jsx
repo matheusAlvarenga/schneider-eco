@@ -2,6 +2,7 @@ import { Footer } from '../../components/footer';
 import { Header } from '../../components/header';
 import img1 from '../../assets/about-1.png';
 import img2 from '../../assets/about-2.png';
+import img3 from '../../assets/about-3.png';
 import tech1 from '../../assets/tech-1.png';
 import tech2 from '../../assets/tech-2.png';
 import tech3 from '../../assets/tech-3.png';
@@ -78,7 +79,7 @@ export function AboutPage() {
       <Divider height="8rem" />
       <S.Section>
         <S.Row>
-          <S.Image src={img2} />
+          <S.Image src={img3} />
           <S.TextSection>
             <S.SmallTitle>Juntos, criando um futuro sustentável e recompensador</S.SmallTitle>
             <S.Text>

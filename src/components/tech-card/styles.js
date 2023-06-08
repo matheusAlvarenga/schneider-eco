@@ -10,6 +10,8 @@ export const Wrapper = styled.div`
 
   border-radius: 10px;
   padding: 1.2rem 2.4rem;
+
+  background-size: cover;
 `;
 
 export const Text = styled.div`

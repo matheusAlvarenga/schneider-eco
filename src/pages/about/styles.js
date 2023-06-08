@@ -23,6 +23,14 @@ export const Row = styled.div`
   justify-content: space-between;
 `;
 
+export const SmallRow = styled.div`
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 6.4rem;
+`;
+
 export const Column = styled.div`
   width: 100%;
 
@@ -48,4 +56,46 @@ export const HeroTitle = styled.h1`
   font-size: 6rem;
   color: white;
   width: 55rem;
+`;
+
+export const Title = styled.h1`
+  width: 100%;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #333333;
+  text-align: center;
+`;
+
+export const Image = styled.img`
+  width: 72rem;
+  height: 42rem;
+  object-fit: cover;
+  border-radius: 10px;
+`;
+
+export const TextSection = styled.div`
+  max-width: 60rem;
+
+  display: flex;
+  flex-direction: column;
+`;
+
+export const SmallTitle = styled.p`
+  font-weight: 800;
+  font-size: 4.8rem;
+  color: #009639;
+`;
+
+export const Subtitle = styled.p`
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: #626469;
+`;
+
+export const Text = styled.p`
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #333333;
+
+  margin-top: 1.6rem;
 `;

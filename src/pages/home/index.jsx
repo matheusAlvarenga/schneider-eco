@@ -7,11 +7,17 @@ import course1 from '../../assets/course-1.png';
 import course2 from '../../assets/course-2.png';
 import course3 from '../../assets/course-3.png';
 import course4 from '../../assets/course-4.png';
+import ins1 from '../../assets/instructor-1.png';
+import ins2 from '../../assets/instructor-2.png';
+import ins3 from '../../assets/instructor-3.png';
+import ins4 from '../../assets/instructor-4.png';
+import ins5 from '../../assets/instructor-5.png';
 import * as S from './styles';
 import { Badge } from '../../components/badge';
 import { Divider } from '../../components/divider';
 import { CourseCard } from '../../components/course-card';
 import { Footer } from '../../components/footer';
+import { InstructorCard } from '../../components/instructor-card';
 
 export function Home() {
   return (
@@ -77,6 +83,19 @@ export function Home() {
             </S.Text>
           </S.TextSection>
         </S.Row>
+      </S.Section>
+      <Divider height="8rem" />
+      <S.Section>
+        <S.Column>
+          <S.SessionTitle>Conheça nossos instrutores</S.SessionTitle>
+          <S.Row>
+            <InstructorCard img={ins1} name="John Mark" subtitle="Especialista em ESG na Amazon" />
+            <InstructorCard img={ins2} name="Erick Marques" subtitle="Eco Coach" />
+            <InstructorCard img={ins3} name="James Smith" subtitle="Referencia em ESG na Schneider" />
+            <InstructorCard img={ins4} name="Lora Shrof" subtitle="Engenheira Ambiental Senior" />
+            <InstructorCard img={ins5} name="Zeng Chin" subtitle="Gestor de Pessoas no Facebook" />
+          </S.Row>
+        </S.Column>
       </S.Section>
       <Divider height="8rem" />
       <Footer />

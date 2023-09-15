@@ -49,7 +49,7 @@ export function DemoSidebar() {
         </S.MenuItem>
       </S.Menu>
       <S.Menu>
-        <S.MenuItem to="/demo/user" active={location.pathname === '/demo/user'}>
+        <S.MenuItem to="/demo/profile" active={location.pathname === '/demo/profile'}>
           <S.MenuItemIcon>
             <Icon.FiUser />
           </S.MenuItemIcon>

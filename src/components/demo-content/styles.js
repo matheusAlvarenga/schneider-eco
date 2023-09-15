@@ -9,4 +9,8 @@ export const Container = styled.div`
   background-color: white;
 
   border-radius: 40px 0px 0px 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 `;

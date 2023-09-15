@@ -8,6 +8,7 @@ import { ClassesPage } from '../pages/demo/classes';
 import { ChallengesPage } from '../pages/demo/challenges';
 import { CommunityPage } from '../pages/demo/community';
 import { ProfilePage } from '../pages/demo/profile';
+import { DashboardPage } from '../pages/demo/dashboard';
 
 export function AppRouter() {
   return (
@@ -22,6 +23,7 @@ export function AppRouter() {
         <Route path="/demo/challenges" exact element={<ChallengesPage />} />
         <Route path="/demo/community" exact element={<CommunityPage />} />
         <Route path="/demo/profile" exact element={<ProfilePage />} />
+        <Route path="/demo/dashboard" exact element={<DashboardPage />} />
       </Routes>
     </BrowserRouter>
   );

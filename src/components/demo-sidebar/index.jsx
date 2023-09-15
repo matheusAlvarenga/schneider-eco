@@ -47,6 +47,12 @@ export function DemoSidebar() {
           </S.MenuItemIcon>
           <S.MenuItemText>Comunidade</S.MenuItemText>
         </S.MenuItem>
+        <S.MenuItem to="/demo/dashboard" active={location.pathname === '/demo/dashboard'}>
+          <S.MenuItemIcon>
+            <Icon.FiInfo />
+          </S.MenuItemIcon>
+          <S.MenuItemText>Dashboard</S.MenuItemText>
+        </S.MenuItem>
       </S.Menu>
       <S.Menu>
         <S.MenuItem to="/demo/profile" active={location.pathname === '/demo/profile'}>

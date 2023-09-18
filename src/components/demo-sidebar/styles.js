@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  position: fixed;
+
   width: 32rem;
   height: 100vh;
 

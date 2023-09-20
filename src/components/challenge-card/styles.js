@@ -12,6 +12,8 @@ export const Wrapper = styled.div`
 
   background-position: center;
   background-size: cover;
+
+  cursor: pointer;
 `;
 
 export const TextWrapper = styled.div`

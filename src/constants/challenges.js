@@ -5,7 +5,7 @@ export const challenges = [
     points: 950,
     image: 'https://sonalmat.sirv.com/FIAP/Schneider/Challenges/challenge%201.jpg',
     percent: 0,
-    tarefas: [
+    tasks: [
       {
         title: 'Reciclar materiais',
         description: 'Separe e recicle seus materiais, como papel, plástico e vidro.',
@@ -22,7 +22,7 @@ export const challenges = [
     points: 1950,
     image: 'https://sonalmat.sirv.com/FIAP/Schneider/Challenges/challenge%202.jpg',
     percent: 25,
-    tarefas: [
+    tasks: [
       {
         title: 'Identificação de espécies',
         description: 'Pesquise e identifique três espécies diferentes de plantas ou animais em seu ambiente local.',
@@ -47,7 +47,7 @@ export const challenges = [
     points: 400,
     image: 'https://sonalmat.sirv.com/FIAP/Schneider/Challenges/challenge%203.jpg',
     percent: 50,
-    tarefas: [
+    tasks: [
       {
         title: 'Desligue dispositivos',
         description: 'Desligue dispositivos eletrônicos que não estão em uso durante o dia.',
@@ -64,7 +64,7 @@ export const challenges = [
     points: 600,
     image: 'https://sonalmat.sirv.com/FIAP/Schneider/Challenges/challenge%204.jpg',
     percent: 75,
-    tarefas: [
+    tasks: [
       {
         title: 'Refeições vegetarianas',
         description: 'Planeje e prepare refeições vegetarianas ou veganas para todo o dia.',
@@ -89,7 +89,7 @@ export const challenges = [
     points: 450,
     image: 'https://sonalmat.sirv.com/FIAP/Schneider/Challenges/challenge%205.jpg',
     percent: 100,
-    tarefas: [
+    tasks: [
       {
         title: 'Banho econômico',
         description: 'Tome um banho mais curto para economizar água.',

@@ -1,10 +1,13 @@
 import * as S from './styles';
 
 export function ChallengeCard({
-  title, points, img, percent,
+  title, points, img, percent, onClick = undefined,
 }) {
   return (
-    <S.Wrapper style={{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(${img})` }}>
+    <S.Wrapper
+      onClick={onClick}
+      style={{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(${img})` }}
+    >
       <S.TextWrapper>
         <S.Text>{title}</S.Text>
         <S.Points>

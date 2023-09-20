@@ -37,7 +37,7 @@ export function DemoSidebar() {
         </S.MenuItem>
         <S.MenuItem to="/demo/challenges" active={location.pathname === '/demo/challenges'}>
           <S.MenuItemIcon>
-            <Icon.FiHome />
+            <Icon.FiFlag />
           </S.MenuItemIcon>
           <S.MenuItemText>Desafios</S.MenuItemText>
         </S.MenuItem>

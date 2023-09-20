@@ -1,17 +1,17 @@
+import { useNavigate } from 'react-router-dom';
 import { DemoContent } from '../../../components/demo-content';
 import { DemoSidebar } from '../../../components/demo-sidebar';
 import { DemoText } from '../../../components/demo-text';
 import { DemoTitle } from '../../../components/demo-title';
 import { FlexColumn } from '../../../components/flex-column';
-import course1 from '../../../assets/course-1.png';
-import course2 from '../../../assets/course-2.png';
-import course3 from '../../../assets/course-3.png';
-import course4 from '../../../assets/course-4.png';
 
 import * as S from './styles';
 import { CourseCard } from '../../../components/course-card';
+import { classes } from '../../../constants/classes';
 
 export function ClassesPage() {
+  const navigate = useNavigate();
+
   return (
     <S.Container>
       <DemoSidebar />
@@ -21,42 +21,12 @@ export function ClassesPage() {
           <DemoText>Aqui estao alguns cursos disponiveis.</DemoText>
         </FlexColumn>
         <S.List>
-          <CourseCard img={course1}>
-            Economia de Agua
-          </CourseCard>
-          <CourseCard img={course2}>
-            Ecologia no dia-a-dia
-          </CourseCard>
-          <CourseCard img={course3}>
-            Reciclagem
-          </CourseCard>
-          <CourseCard img={course4}>
-            Economia de Energia
-          </CourseCard>
-          <CourseCard img={course1}>
-            Economia de Agua
-          </CourseCard>
-          <CourseCard img={course2}>
-            Ecologia no dia-a-dia
-          </CourseCard>
-          <CourseCard img={course3}>
-            Reciclagem
-          </CourseCard>
-          <CourseCard img={course4}>
-            Economia de Energia
-          </CourseCard>
-          <CourseCard img={course1}>
-            Economia de Agua
-          </CourseCard>
-          <CourseCard img={course2}>
-            Ecologia no dia-a-dia
-          </CourseCard>
-          <CourseCard img={course3}>
-            Reciclagem
-          </CourseCard>
-          <CourseCard img={course4}>
-            Economia de Energia
-          </CourseCard>
+          {classes.map((course, index) => (
+            <CourseCard onClick={() => navigate(`/demo/classes/${index}`)} key={`course-${course.title}`} img={course.image}>
+              {course.title}
+            </CourseCard>
+          ))}
+
         </S.List>
       </DemoContent>
     </S.Container>

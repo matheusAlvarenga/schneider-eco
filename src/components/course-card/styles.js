@@ -9,6 +9,11 @@ export const Wrapper = styled.div`
   height: 43rem;
 
   padding: 1.6rem 2.4rem;
+
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
 `;
 
 export const Text = styled.p`

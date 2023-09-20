@@ -6,9 +6,7 @@ export const Container = styled.div`
   background-color: #333333;
 `;
 
-export const List = styled.div`
+export const ButtonWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2.4rem;
+  justify-content: flex-end;
 `;

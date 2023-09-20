@@ -12,6 +12,7 @@ import * as S from './styles';
 import { Divider } from '../../../components/divider';
 import { ChallengeDataCard } from '../../../components/challenge-data-card';
 import { classes } from '../../../constants/classes';
+import { data } from '../../../constants/data';
 
 export function DashboardPage() {
   const navigate = useNavigate();
@@ -24,10 +25,9 @@ export function DashboardPage() {
           <DemoTitle>Dados gerais</DemoTitle>
           <DemoText>Dados gerais sobre os usuarios do sistema.</DemoText>
         </FlexColumn>
-        <BarChart title="Usuarios ativos nos utimos 7 dias" value={20} totalValue={40} unit="usuarios" />
-        <BarChart title="Usuarios ativos nos utimos 7 dias" value={20} totalValue={40} unit="usuarios" />
-        <BarChart title="Usuarios ativos nos utimos 7 dias" value={20} totalValue={40} unit="usuarios" />
-        <BarChart title="Usuarios ativos nos utimos 7 dias" value={20} totalValue={40} unit="usuarios" />
+        {data.map((item) => (
+          <BarChart title={item.title} value={item.value} totalValue={item.totalValue} unit="usuarios" />
+        ))}
         <Divider height="4rem" />
         <FlexColumn>
           <DemoTitle>Desafios</DemoTitle>

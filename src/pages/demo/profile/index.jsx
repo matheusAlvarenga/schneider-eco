@@ -19,6 +19,7 @@ export function ProfilePage() {
         <S.ProfileWrapper>
           <S.ProfilePicture src={profile} />
           <S.ProfileName>Olivia dos Santos</S.ProfileName>
+          <S.ProfileEmail>olivia.santos@mail.com</S.ProfileEmail>
           <Button>Desconectar</Button>
         </S.ProfileWrapper>
         <DemoTitle>Cursos assistidos</DemoTitle>

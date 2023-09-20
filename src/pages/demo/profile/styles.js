@@ -34,3 +34,10 @@ export const ProfileWrapper = styled.div`
   align-items: center;
   gap: 1.6rem;
 `;
+
+export const List = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.4rem;
+`;

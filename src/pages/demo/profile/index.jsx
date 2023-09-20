@@ -1,7 +1,7 @@
+import { Button } from '../../../components/button';
 import { DemoContent } from '../../../components/demo-content';
 import { DemoSidebar } from '../../../components/demo-sidebar';
-import { DemoTitle } from '../../../components/demo-title';
-import { FlexColumn } from '../../../components/flex-column';
+import profile from '../../../assets/profile.png';
 
 import * as S from './styles';
 
@@ -10,9 +10,11 @@ export function ProfilePage() {
     <S.Container>
       <DemoSidebar />
       <DemoContent>
-        <FlexColumn>
-          <DemoTitle>Perfil</DemoTitle>
-        </FlexColumn>
+        <S.ProfileWrapper>
+          <S.ProfilePicture src={profile} />
+          <S.ProfileName>Olivia dos Santos</S.ProfileName>
+          <Button>Desconectar</Button>
+        </S.ProfileWrapper>
       </DemoContent>
     </S.Container>
   );

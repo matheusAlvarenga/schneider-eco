@@ -4,6 +4,7 @@ import { DemoText } from '../../../components/demo-text';
 import { DemoTitle } from '../../../components/demo-title';
 import { FlexColumn } from '../../../components/flex-column';
 import { RewardBadge } from '../../../components/reward-badge';
+import { rewards } from '../../../constants/rewards';
 
 import * as S from './styles';
 
@@ -17,26 +18,9 @@ export function RewardsPage() {
           <DemoText>Aqui estao as possiveis recompensas.</DemoText>
         </FlexColumn>
         <S.List>
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
+          {rewards.map((reward) => (
+            <RewardBadge key={`reward-${reward.points}`} points={reward.points} text={reward.title} />
+          ))}
         </S.List>
       </DemoContent>
     </S.Container>

@@ -26,7 +26,6 @@ export function ClassesPage() {
               {course.title}
             </CourseCard>
           ))}
-
         </S.List>
       </DemoContent>
     </S.Container>

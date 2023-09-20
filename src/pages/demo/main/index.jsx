@@ -1,18 +1,19 @@
+import { useNavigate } from 'react-router-dom';
 import { DemoContent } from '../../../components/demo-content';
 import { DemoSidebar } from '../../../components/demo-sidebar';
 import { DemoText } from '../../../components/demo-text';
 import { DemoTitle } from '../../../components/demo-title';
 import { FlexColumn } from '../../../components/flex-column';
-import course1 from '../../../assets/course-1.png';
-import course2 from '../../../assets/course-2.png';
-import course3 from '../../../assets/course-3.png';
-import course4 from '../../../assets/course-4.png';
 
 import * as S from './styles';
 import { CourseCard } from '../../../components/course-card';
 import { RewardBadge } from '../../../components/reward-badge';
+import { classes } from '../../../constants/classes';
+import { rewards } from '../../../constants/rewards';
 
 export function MainPage() {
+  const navigate = useNavigate();
+
   return (
     <S.Container>
       <DemoSidebar />
@@ -23,29 +24,17 @@ export function MainPage() {
         </FlexColumn>
         <DemoTitle>Cursos assistidos</DemoTitle>
         <S.List>
-          <CourseCard img={course1}>
-            Economia de Agua
-          </CourseCard>
-          <CourseCard img={course2}>
-            Ecologia no dia-a-dia
-          </CourseCard>
-          <CourseCard img={course3}>
-            Reciclagem
-          </CourseCard>
-          <CourseCard img={course4}>
-            Economia de Energia
-          </CourseCard>
+          {classes.slice(0, 3).map((course, index) => (
+            <CourseCard onClick={() => navigate(`/demo/classes/${index}`)} key={`course-${course.title}`} img={course.image}>
+              {course.title}
+            </CourseCard>
+          ))}
         </S.List>
         <DemoTitle>Recompensas resgatadas</DemoTitle>
         <S.RewardsList>
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
-          <RewardBadge points="25.000 pontos" text="Vale-viagem para um destino" />
+          {rewards.slice(16, 18).map((reward) => (
+            <RewardBadge key={`reward-${reward.points}`} points={reward.points} text={reward.title} />
+          ))}
         </S.RewardsList>
       </DemoContent>
     </S.Container>

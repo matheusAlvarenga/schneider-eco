@@ -1,5 +1,4 @@
 import * as Icon from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
 import { Button } from '../../components/button';
 import { Header } from '../../components/header';
 import img1 from '../../assets/home-1.png';
@@ -22,8 +21,6 @@ import { Footer } from '../../components/footer';
 import { InstructorCard } from '../../components/instructor-card';
 
 export function Home() {
-  const navigate = useNavigate();
-
   return (
     <S.Wrapper>
       <Header />
@@ -37,7 +34,7 @@ export function Home() {
               {' '}
               a cada recompensa!
             </S.Title>
-            <Button onClick={() => navigate('https://www.youtube.com/watch?v=f3YPcldAXxY')}>Assista o Vídeo Pitch</Button>
+            <Button onClick={() => window.open('https://www.youtube.com/watch?v=f3YPcldAXxY')}>Assista o Vídeo Pitch</Button>
           </S.Column>
           <S.Column>
             <S.Image src={img1} />

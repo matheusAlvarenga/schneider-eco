@@ -1,9 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import { Button } from '../../components/button';
 import * as S from './styles';
 
 import logo from '../../assets/logo.png';
 
 export function LoginPage() {
+  const navigate = useNavigate();
+
   return (
     <S.Background>
       <S.Container>
@@ -19,7 +22,7 @@ export function LoginPage() {
               <S.InputLabel>Senha</S.InputLabel>
               <S.Input placeholder="************" type="password" />
             </S.InputWrapper>
-            <Button>Entrar</Button>
+            <Button onClick={() => navigate('/demo')}>Entrar</Button>
           </S.Form>
           <S.Divider />
           <S.Form>
@@ -40,7 +43,7 @@ export function LoginPage() {
               <S.InputLabel>Confirme a senha</S.InputLabel>
               <S.Input placeholder="************" type="password" />
             </S.InputWrapper>
-            <Button>Cadastrar</Button>
+            <Button onClick={() => navigate('/demo')}>Cadastrar</Button>
           </S.Form>
         </S.Wrapper>
       </S.Container>

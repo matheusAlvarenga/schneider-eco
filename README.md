@@ -5,6 +5,8 @@
 - Matheus Alvarenga (RM96735)
 - Barbara Marins (RM96581)
 - Heloisa Ridolfi (RM96772)
+- Ana Luiza do Nascimento (RM96775)
+- Luana de Oliveira (RM97024)
 
 ## Links
 

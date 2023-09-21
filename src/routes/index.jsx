@@ -11,6 +11,7 @@ import { ProfilePage } from '../pages/demo/profile';
 import { DashboardPage } from '../pages/demo/dashboard';
 import { ClassPage } from '../pages/demo/class';
 import { ChallengePage } from '../pages/demo/challenge';
+import { LoginPage } from '../pages/login';
 
 export function AppRouter() {
   return (
@@ -18,6 +19,7 @@ export function AppRouter() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/sobre-nos" exact element={<AboutPage />} />
+        <Route path="/login" exact element={<LoginPage />} />
         <Route path="/demo" exact element={<MainPage />} />
         <Route path="/demo/ranking" exact element={<RankingPage />} />
         <Route path="/demo/rewards" exact element={<RewardsPage />} />

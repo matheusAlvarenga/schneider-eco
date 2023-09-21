@@ -1,0 +1,17 @@
+export const ranking = [
+  { name: 'João Silva', points: 14852 },
+  { name: 'Maria Santos', points: 12475 },
+  { name: 'Pedro Almeida', points: 12352 },
+  { name: 'Ana Oliveira', points: 11953 },
+  { name: 'Luis Pereira', points: 11927 },
+  { name: 'Carolina Santos', points: 11789 },
+  { name: 'Miguel Fernandes', points: 11178 },
+  { name: 'Sofia Costa', points: 10745 },
+  { name: 'Diogo Rodrigues', points: 10268 },
+  { name: 'Marta Ribeiro', points: 10059 },
+  { name: 'Tiago Gonsalves', points: 9954 },
+  { name: 'Ines Souza', points: 9485 },
+  { name: 'Andre Santos', points: 9348 },
+  { name: 'Filipa Teixeira', points: 9214 },
+  { name: 'Rui Alves', points: 9014 },
+];

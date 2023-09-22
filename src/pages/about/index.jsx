@@ -100,7 +100,9 @@ export function AboutPage() {
           <S.SmallRow>
             <AuthorCard text="Desenvolvedor" name="Matheus Alvarenga" />
             <AuthorCard text="Designer" name="Heloisa Ridolfi" />
+            <AuthorCard text="Desenvolvedora" name="Ana Luiza" />
             <AuthorCard text="Product Owner" name="Barbara Marins" />
+            <AuthorCard text="Desenvolvedora" name="Luana Batista" />
           </S.SmallRow>
         </S.Section>
       </S.Column>

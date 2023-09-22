@@ -26,7 +26,7 @@ npm install
 npm start
 ```
 
-- Acessar via browser na url: http://localhost:5173/tech-farm/
+- Acessar via browser na url: http://localhost:5173/schneider-eco/
 
 ## Versoes utilizadas
 

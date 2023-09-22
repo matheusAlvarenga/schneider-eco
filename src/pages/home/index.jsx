@@ -34,7 +34,7 @@ export function Home() {
               {' '}
               a cada recompensa!
             </S.Title>
-            <Button onClick={() => window.open('https://www.youtube.com/watch?v=f3YPcldAXxY')}>Assista o Vídeo Pitch</Button>
+            <Button onClick={() => window.open('https://youtu.be/nnsXNaaj6b8')}>Assista o Vídeo Pitch</Button>
           </S.Column>
           <S.Column>
             <S.Image src={img1} />

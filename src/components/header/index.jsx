@@ -12,7 +12,7 @@ export function Header() {
       <S.Menu>
         <S.MenuItem to="/">Inicio</S.MenuItem>
         <S.MenuItem to="/sobre-nos">Sobre o projeto</S.MenuItem>
-        <S.MenuItem to="https://www.youtube.com/watch?v=f3YPcldAXxY">Vídeo Pitch</S.MenuItem>
+        <S.MenuItem to="https://youtu.be/nnsXNaaj6b8">Vídeo Pitch</S.MenuItem>
         <Button onClick={() => navigate('/login')}>Acesse o demo</Button>
       </S.Menu>
     </S.Wrapper>

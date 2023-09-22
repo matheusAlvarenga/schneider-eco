@@ -5,12 +5,14 @@
 - Matheus Alvarenga (RM96735)
 - Barbara Marins (RM96581)
 - Heloisa Ridolfi (RM96772)
+- Ana Luiza do Nascimento (RM96775)
+- Luana Batista de Oliveira (RM97024)
 
 ## Links
 
 - Github: https://github.com/matheusAlvarenga/schneider-eco
 - Preview: https://matheusalvarenga.github.io/schneider-eco/
-- Video Pitch: https://www.youtube.com/watch?v=f3YPcldAXxY
+- Video Pitch: https://youtu.be/nnsXNaaj6b8
 
 ## Tutorial para rodar o projeto
 

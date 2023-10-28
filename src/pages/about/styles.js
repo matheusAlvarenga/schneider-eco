@@ -21,6 +21,18 @@ export const Row = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
+
+  @media (max-width: 1200px) {
+    gap: 6rem;
+    justify-content: center;
+  }
+
+  @media (max-width: 900px) {
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
 
 export const TechRow = styled.div`
@@ -38,6 +50,12 @@ export const SmallRow = styled.div`
   display: flex;
   justify-content: center;
   gap: 6.4rem;
+
+  @media (max-width: 900px) {
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
 
 export const Column = styled.div`
